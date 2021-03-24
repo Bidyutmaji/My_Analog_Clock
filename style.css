@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -150,4 +152,16 @@ body {
   font-family: "Roboto";
   font-weight: 700;
   white-space: nowrap;
+}
+
+.myname {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  color: #ff105e;
+  cursor: pointer;
+  font-family: Poppins;
+
+  text-shadow: 0 0 10px #ff105e, 0 0 20px #ff105e, 0 0 40px #ff105e,
+    0 0 80px #ff105e, 0 0 120px #ff105e;
 }
