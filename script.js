@@ -5,10 +5,10 @@ function toggle_button(){
     document.querySelector('body').classList.toggle('light');
     if(document.body.classList.contains('light')){
         console.log('Hare Krishna');
-        console.log('on');
+        console.log('light mode');
         localStorage.setItem('light_mode', ('on') );
     }else{
-        console.log('off');
+        console.log('dark mode');
         localStorage.setItem('light_mode', 'off');
     }
     
@@ -41,13 +41,3 @@ scs.style.transform = `rotateZ(${ss}deg)`;
 //  var class_name = document.querySelector('.light');
 //  console.log(class_name);
 //  console.log(typeof(class_name));
-
-if(document.body.classList.contains('light')){
-    console.log('Hare Krishna');
-    console.log('on');
-    localStorage.setItem('light_mode', ('on') );
-}else{
-    console.log('off');
-    localStorage.setItem('light_mode', 'off');
-}
-
