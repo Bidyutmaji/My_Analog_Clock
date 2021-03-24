@@ -1,10 +1,23 @@
+
 console.log('Hare Krishna')
 
-
+//for toggle button event
 function toggle_button(){
     document.querySelector('body').classList.toggle('light');
+    if(document.body.classList.contains('light')){
+        console.log('Hare Krishna');
+        console.log('on');
+        localStorage.setItem('light_mode', ('on') ); 
+    }else{
+        console.log('off');
+        localStorage.setItem('light_mode', 'off');
+    }
+    
+    
 }
 
+if(localStorage.getItem('light_mode') == 'on'){
+    document.body.classList.toggle('light');
 
 const deg=6;
 const hrs = document.querySelector('#hr');
@@ -23,3 +36,14 @@ mns.style.transform = `rotateZ(${mm}deg)`;
 scs.style.transform = `rotateZ(${ss}deg)`;
 
  })
+
+
+if(document.body.classList.contains('light')){
+    console.log('Hare Krishna');
+    console.log('on');
+    localStorage.setItem('light_mode', ('on') );
+}else{
+    console.log('off');
+    localStorage.setItem('light_mode', 'off');
+}
+
