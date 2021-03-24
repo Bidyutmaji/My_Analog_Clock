@@ -162,6 +162,30 @@ body {
   cursor: pointer;
   font-family: "Train One";
 
-  text-shadow: 0 0 20px #ff105e, 0 0 40px #ff105e, 0 0 80px #ff105e,
-    0 0 120px #ff105e;
+  text-shadow: 0 0 5px #ff105e;
+}
+
+@keyframes glow_name {
+  0% {
+    text-shadow: 0 0 20px #ff105e;
+  }
+  20% {
+    text-shadow: 0 0 30px #ff105e;
+  }
+  40% {
+    text-shadow: 0 0 50px #ff105e;
+  }
+  60% {
+    text-shadow: 0 0 70px #ff105e;
+  }
+  80% {
+    text-shadow: 0 0 100px #ff105e;
+  }
+  100% {
+    text-shadow: 0 0 120px #ff105e;
+  }
+}
+
+.myname {
+  animation: glow_name 1000ms infinite;
 }
