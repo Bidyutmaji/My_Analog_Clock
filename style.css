@@ -124,10 +124,10 @@ body {
 .toggle {
   position: absolute;
   top: 30px;
-  right: 120px;
+  right: 100px;
   width: 20px;
   height: 20px;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 50%;
   background: #d1dae3;
   color: #d1dae3;
@@ -157,35 +157,34 @@ body {
 .myname {
   position: absolute;
   top: 30px;
-  left: 80px;
-  color: #ff105e;
+  left: 50px;
   cursor: pointer;
   font-family: "Train One";
-
-  text-shadow: 0 0 5px #ff105e;
 }
 
 @keyframes glow_name {
   0% {
-    text-shadow: 0 0 20px #ff105e;
+    color: #9b5de5;
+    text-shadow: 0 0 50px #9b5de5;
   }
-  20% {
-    text-shadow: 0 0 30px #ff105e;
+  25% {
+    color: #f15bb5;
+    text-shadow: 0 0 50px #f15bb5;
   }
-  40% {
-    text-shadow: 0 0 50px #ff105e;
+  50% {
+    color: #fee440;
+    text-shadow: 0 0 50px #fee440;
   }
-  60% {
-    text-shadow: 0 0 70px #ff105e;
-  }
-  80% {
-    text-shadow: 0 0 100px #ff105e;
+  75% {
+    color: #00bbf9;
+    text-shadow: 0 0 70px #00bbf9;
   }
   100% {
-    text-shadow: 0 0 120px #ff105e;
+    color: #00f5d4;
+    text-shadow: 0 0 50px #00f5d4;
   }
 }
 
 .myname {
-  animation: glow_name 1000ms infinite;
+  animation: glow_name 2500ms infinite;
 }
