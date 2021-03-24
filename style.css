@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
 
 * {
   margin: 0;
@@ -160,8 +160,8 @@ body {
   left: 80px;
   color: #ff105e;
   cursor: pointer;
-  font-family: Poppins;
+  font-family: "Train One";
 
-  text-shadow: 0 0 10px #ff105e, 0 0 20px #ff105e, 0 0 40px #ff105e,
-    0 0 80px #ff105e, 0 0 120px #ff105e;
+  text-shadow: 0 0 20px #ff105e, 0 0 40px #ff105e, 0 0 80px #ff105e,
+    0 0 120px #ff105e;
 }
