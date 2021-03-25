@@ -210,7 +210,7 @@ body {
   top: 70%;
   left: 52%;
   border-color: #6a00f4;
-  animation: animate_b 7s linear infinite;
+  animation: animate_b 14s linear infinite;
 }
 .box div:nth-child(3) {
   top: 20%;
@@ -259,17 +259,22 @@ body {
   top: 25%;
   left: 88%;
   border-color: #00f5d4;
-  animation: animate_b 7s linear infinite;
+  animation: animate_b 10s linear infinite;
 }
 
-/* @keyframes animate_b {
+@keyframes animate_b {
   0% {
     transform: scale(0) translateY(0) rotate(0);
     opacity: 1;
+  }
+
+  50% {
+    transform: scale(0.8) translateY(-45px) translateX(10px) rotate(180deg);
+    opacity: 0.5;
   }
 
   100% {
     transform: scale(1.5) translateY(-90px) rotate(360deg);
     opacity: 0;
   }
-} */
+}
