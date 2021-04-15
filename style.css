@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Zilla+Slab:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 * {
   margin: 0;
@@ -191,6 +192,14 @@ body {
   animation: glow_name 2500ms infinite;
 }
 
+.hk {
+  position: absolute;
+  top: 86%;
+  align-items: center;
+  font-family: "Poppins";
+  color: #ff105e;
+  text-shadow: 0 0 50px #00f5d4;
+}
 .box div {
   position: absolute;
   width: 40px;
